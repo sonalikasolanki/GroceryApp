@@ -10,7 +10,7 @@ import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Grocery-App'>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/products/:catId" element={<ProductPage />} />
